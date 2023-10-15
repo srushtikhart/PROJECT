@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>srushti kharat</title>
+  <style>
+    * {
+      text-decoration: none;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+
+    .navbar {
+      background: rgb(255, 255, 255);
+      font-family: 'Times New Roman', serif;
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+
+    .navdiv {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo * {
+      margin: 15px;
+      font-size: 65px;
+    }
+
+    li {
+      list-style: none;
+      display: inline-block;
+      font-size: 18px;
+    }
+
+    li * {
+      margin-right: 25px;
+      color: rgb(0, 0, 0);
+    }
+
+    .detell {
+      margin-left: 8%;
+      margin-top: 15%;
+
+    }
+
+    .detell h1 {
+      font-size: 50px;
+      color: rgb(0, 0, 0);
+      margin-bottom: 20px;
+
+    }
+
+    span {
+      color: rgb(8, 143, 215);
+    }
+
+    .detell p {
+      padding: 25px;
+      color: rgb(0, 0, 0);
+      line-height: 22px;
+
+    }
+
+    .btn1 {
+      margin: 15px;
+      padding: 15px;
+      font-size: 15px;
+      font-weight: bold;
+      color: white;
+      background: #000;
+      text-align: center;
+      border: none;
+
+    }
+
+    .btn2 {
+      text-decoration: none;
+      margin: 15px;
+      padding: 15px;
+      font-size: 15px;
+      font-weight: bold;
+      color: rgb(255, 255, 255);
+      background: #000;
+      text-align: center;
+      border: none;
+
+    }
+
+    .btn1:hover {
+
+      color: #eef3f4;
+      background: rgb(8, 143, 215);
+
+
+    }
+
+    .btn2:hover {
+
+      color: #ffffff;
+      background: rgb(8, 143, 215);
+    }
+
+    .img {
+      width: 45%;
+      height: 80%;
+      position: absolute;
+      bottom: 0;
+      right: 100px;
+
+    }
+
+    .img img {
+      height: 100%;
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translate(-50%);
+      transition: bottom 1s, left 1s;
+    }
+
+    .img:hover .shape {
+      bottom: 40;
+
+    }
+
+    .img:hover .self {
+      left: 45%;
+    }
+
+    a,
+    a:hover,
+    a:focus,
+    a:active {
+      text-decoration: none;
+      color: inherit;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="navdiv">
+      <div class="logo"> <img src="img/logol.png" alt="" height="120" width="250"></div>
+      <ul>
+        <li><a href="Resume.html">Resume</a></li>
+        <li><a href="Skills.html">Skills</a></li>
+        <li><a href="Projects.html">Projects</a></li>
+        <li><a href="Achivements.html">Achivements</a></li>
+        <li><a href="Talks.html">Talks</a></li>
+        <li><a href="contact_me.html">ContactMe</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="detell">
+    <h1>Hi all i'm <span>Srushti</span></h1>
+    <p> Full Stack Developer <br>
+      I am a Full-Stack developer based in Pune, India. <br> I am an Information Technology undergraduate from SPPU. I
+      am very passionate about improving my coding skills & developing applications & websites. <br> I build WebApps and
+      Websites using MERN Stack. Working for myself to improve my skills. <br> Love to build Full-Stack clones. </p>
+
+    <button class="btn1"><a href="contact_me.html">CONTACT ME</a></button>
+
+    <button class="btn2"><a href="Resume.html"> SEE MY RESUME</a></button>
+
+
+
+  </div>
+
+
+  <div class="img">
+    <img src="img/neon.jpg" alt="" class="shape">
+    <img src="img/self.png" alt="" class="self">
+
+  </div>
+
+
+
+
+
+</body>
+
+</html>

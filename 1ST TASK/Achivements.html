@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Achivements</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: rgb(167, 221, 251);
+
+    }
+
+    .time {
+      position: relative;
+      max-width: 1200px;
+      margin: 100px auto;
+    }
+
+    .container {
+      padding: 10px 50px;
+      position: relative;
+      width: 50%;
+      background: rgb(121, 174, 240);
+    }
+
+    .text-box {
+      padding: 20px 30px;
+      background: rgb(190, 225, 244);
+      position: relative;
+      border-radius: 6px;
+      font-size: 15px;
+
+    }
+
+    .left-container {
+      left: 0;
+    }
+
+    .right-container {
+      left: 50%;
+    }
+
+    .timeline::after {
+      content: '';
+      position: absolute;
+      width: 6px;
+      height: 100%;
+      background: white;
+      top: 0;
+      left: 60%;
+      margin-left: -3px;
+      z-index: -1;
+
+    }
+
+    .text-box {
+      font-weight: 600;
+
+    }
+
+    .text-box small {
+      display: inline-block;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="time">
+
+
+    <div class="container left-container">
+      <div class="text-box">
+        <h2>CODE SOFT</h2>
+        <small>2014-2018</small>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus amet iste fugiat laudantium eligendi
+          expedita pariatur nulla? Repudiandae </p>
+      </div>
+    </div>
+
+    <div class="container right-container">
+      <div class="text-box">
+        <h2>AMAZON</h2>
+        <small>2018-2019</small>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicin reprehenderit, suscipit facere laboriosam eveniet?</p>
+      </div>
+    </div>
+
+    <div class="container left-container">
+      <div class="text-box">
+        <h2>MICROSOFT</h2>
+        <small>2019-2021</small>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicin aut tenetur excepturi tempora quas natus quis
+          reprehenderit, suscipit facere laboriosam eveniet?</p>
+      </div>
+    </div>
+
+    <div class="container right-container">
+      <div class="text-box">
+        <h2>FLIPCART</h2>
+        <small>2021-2022</small>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus amet iste fugiat laudant uis
+          reprehenderit, suscipit facere laboriosam eveniet?</p>
+      </div>
+    </div>
+
+
+  </div>
+
+
+</body>
+
+</html>
